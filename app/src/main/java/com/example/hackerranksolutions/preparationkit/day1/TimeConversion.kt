@@ -22,9 +22,7 @@ fun timeConversion(s: String): String {
             h = 0
         }
     }
-
     return "%02d:%s:%s".format(h,minute,second)
-
 }
 
 fun main(args: Array<String>) {
